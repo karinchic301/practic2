@@ -16,21 +16,21 @@
   </properties>
 
   <dependencies>
-    <!-- Kotlin стандартная библиотека -->
+    <!-- Kotlin -->
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-stdlib</artifactId>
       <version>${kotlin.version}</version>
     </dependency>
 
-    <!-- JAXB API (аннотации и интерфейсы) -->
+    <!-- JAXB API -->
     <dependency>
       <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
       <version>4.0.0</version>
     </dependency>
 
-    <!-- JAXB runtime (реализация) -->
+    <!-- JAXB runtime -->
     <dependency>
       <groupId>org.glassfish.jaxb</groupId>
       <artifactId>jaxb-runtime</artifactId>
@@ -61,7 +61,7 @@
         </executions>
       </plugin>
 
-      <!-- Maven Compiler (если используешь Java классы) -->
+      <!-- Maven Compiler -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
